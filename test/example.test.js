@@ -2,12 +2,12 @@ import {add, subtract, product, divide} from '../util.js';
 
 const test = QUnit.test;
   
-test('it should return 5 when passed 2 and 3', (expect) => {
+test('it should return 2 when passed 1 and 1', (expect) => {
     //Arrange
     // Set up your arguments and expectations
-    const argument1 =2;
-    const argument2 =3;
-    const expected = 5
+    const argument1 =1;
+    const argument2 =1;
+    const expected = 2
     
     //Act 
     // Call the function you're testing and set the result to a const
@@ -19,10 +19,10 @@ test('it should return 5 when passed 2 and 3', (expect) => {
     // Make assertions about what is expected versus the actual result
     
 });
-test('it should return a 9 when passed a 16 and 7', (expect)=>{
+test('it should return a 10 when passed a 16 and 6', (expect)=>{
     const argument1 = 16;
-    const argument2 =7;
-    const expected = 9;
+    const argument2 =6;
+    const expected = 10;
     const actual= subtract(argument1, argument2);
     expect.equal(actual,expected);
 
